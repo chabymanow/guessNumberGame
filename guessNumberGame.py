@@ -22,5 +22,6 @@ for guesses in range(1, 7):
     
 if playerGuess == secretNumber:
     print("Nice job " +playerName+ "! You guessed my number!")
+    end = input()
 else:
     print("It is too much try " +playerName+"! My secret number was: " +str(secretNumber))
